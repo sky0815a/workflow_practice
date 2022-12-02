@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import '../components/Hello'
+import Hello from './components/Hello';
+import Compliment from './components/Compliment';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Hello/>
+        <Compliment/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
