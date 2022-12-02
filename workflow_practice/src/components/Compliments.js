@@ -38,10 +38,10 @@ let data = [
     "Hello, good looking."
 ];
 
-function Compliment() {
+function Compliments() {
     return <h1>
         ${data[Math.floor(Math.random() * data.length)]}
     </h1>
 }
 
-export default Compliment;
+export default Compliments;
