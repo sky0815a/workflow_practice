@@ -1,4 +1,4 @@
-let data = [
+const compliments = [
     "Good effort!",
     "What a fine sweater!",
     "I appreciate all of your opinions.",
@@ -40,7 +40,7 @@ let data = [
 
 function Compliment() {
     return <h1>
-        ${data[Math.floor(Math.random() * data.length)]}
+        ${compliments[Math.floor(Math.random() * data.length)]}
     </h1>
 }
 
